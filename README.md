@@ -31,10 +31,10 @@ Use `processing-run --processing-run-help` to display help text
 There are a few ways you could make this availible to use in the terminal
 
 
-- Creating an alias: `alias processing-run=path/to/file`
+- Creating an alias: `alias processing-run=path/to/processing-run.py`
 
-- Using a symlink: `sudo ln -s /absolute/path/to/file /usr/local/bin/`
+- Using a symlink: `sudo ln -s /absolute/path/to/processing-run.py /usr/local/bin/`
 
-- Copying/Moving python file: `sudo cp path/to/file /usr/local/bin`
+- Copying/Moving python file: `sudo cp path/to/processing-run.py /usr/local/bin`
 
 - Running build.sh (make sure you are in the project root directory): `/bin/bash build.sh` or `./build.sh`
