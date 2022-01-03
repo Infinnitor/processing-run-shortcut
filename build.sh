@@ -47,7 +47,7 @@ echo "Do you want to copy program to /usr/local/bin/ ?"
 select yn in "Yes" "No"
 do
 	case $yn in
-		Yes ) sudo cp processing-run /usr/local/bin/; echo "processing-run copied to /usr/local/bin/"; break;;
+		Yes ) sudo mv processing-run /usr/local/bin/; echo "processing-run copied to /usr/local/bin/"; break;;
 		No ) break;;
 	esac
 done
